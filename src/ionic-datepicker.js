@@ -106,7 +106,7 @@ angular.module('ionic-datepicker', ['ionic', 'ionic-datepicker.templates'])
 
           $ionicPopup.show({
             templateUrl: 'date-picker-modal.html',
-            title: '<strong>Select Date</strong>',
+            title: '<strong>选择日期</strong>',
             subTitle: '',
             scope: scope,
             buttons: [

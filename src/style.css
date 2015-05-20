@@ -8,14 +8,15 @@
     background-color: rgb(56, 126, 245);
 }
 
-.date_col:hover {
-    background-color: rgba(56, 126, 245, 0.5);
-    cursor: pointer;
+.select-body .week-name{
+    text-align: center;
 }
 
-.date_col:active {
-    background-color: rgba(56, 126, 245, 1);
-    cursor: pointer;
+.select-head button{
+    padding: 0 !important;
+}
+.select-head .ion-chevron-left:before, .select-head .ion-chevron-right:before{
+    width: 10px;
 }
 
 .no_padding {
