@@ -105,6 +105,7 @@ angular.module('ionic-datepicker', ['ionic', 'ionic-datepicker.templates'])
           }
 
           $ionicPopup.show({
+            cssClass:'ionic-datepicker',
             templateUrl: 'date-picker-modal.html',
             title: '<strong>选择日期</strong>',
             subTitle: '',
@@ -132,8 +133,8 @@ angular.module('ionic-datepicker', ['ionic', 'ionic-datepicker.templates'])
                 }
               }
             ]
-          })
-        })
+          });
+        });
       }
     }
   }]);

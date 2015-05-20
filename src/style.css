@@ -16,8 +16,14 @@
     padding: 0 !important;
     width: 100%;
 }
-.select-head .ion-chevron-left:before, .select-head .ion-chevron-right:before{
-    width: 10px;
+
+.ionic-datepicker .popup{
+    width: 300px !important;
+}
+
+.ionic-datepicker .popup-body{
+    padding: 0 !important;
+    overflow:auto !important;
 }
 
 .no_padding {
@@ -25,7 +31,9 @@
 }
 
 .date_cell {
-    padding: 5px;
+    padding: 0 !important;
+    height: 30px;
+    line-height: 30px;
 }
 
 .error_msg {
