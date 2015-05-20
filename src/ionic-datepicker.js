@@ -12,11 +12,11 @@ angular.module('ionic-datepicker', ['ionic', 'ionic-datepicker.templates'])
         ipDate: '=idate'
       },
       link: function (scope, element, attrs) {
-        var monthsList = ["January", "February", "March", "April", "May", "June", "July",
-          "August", "September", "October", "November", "December"];
+        var monthsList = ["一月", "二月", "三月", "四月", "五月", "六月", "七月",
+          "八月", "九月", "十月", "十一月", "十二月"];
 
         var currentDate = angular.copy(scope.ipDate);
-        scope.weekNames = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
+        scope.weekNames = ['日', '一', '二', '三', '四', '五', '六'];
 
         scope.today = {};
         scope.today.dateObj = new Date();
@@ -110,16 +110,16 @@ angular.module('ionic-datepicker', ['ionic', 'ionic-datepicker.templates'])
             subTitle: '',
             scope: scope,
             buttons: [
-              {text: 'Close'},
+              {text: '关闭'},
               {
-                text: 'Today',
+                text: '今天',
                 onTap: function (e) {
                   refreshDateList(new Date());
                   e.preventDefault();
                 }
               },
               {
-                text: 'Set',
+                text: '设置',
                 type: 'button-positive',
                 onTap: function (e) {
                   scope.date_selection.submitted = true;
