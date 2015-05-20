@@ -1,10 +1,10 @@
 {
   "name": "ionic-datepicker",
   "version": "0.0.1",
-  "description": "A date picker for IONIC framework",
+  "description": "A date picker for IONIC framework, forked from rajeshwarpatlolla/ionic-datepicker",
   "main": "",
   "scripts": {},
-  "author": "https://github.com/rajeshwarpatlolla, rajeshwar.patlolla@gmail.com",
+  "author": "https://github.com/leoliang-sh, leoliang.sh@gmail.com",
   "license": "MIT",
   "dependencies": {
     "gulp-clean": "^0.3.1"
