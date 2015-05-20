@@ -14,6 +14,7 @@
 
 .select-head button{
     padding: 0 !important;
+    width: 100%;
 }
 .select-head .ion-chevron-left:before, .select-head .ion-chevron-right:before{
     width: 10px;
