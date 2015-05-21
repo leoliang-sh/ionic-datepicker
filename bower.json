@@ -27,6 +27,6 @@
     "tests"
   ],
   "dependencies": {
-    "ionic": "~1.0.0.rc.1"
+    "ionic": "~1.0.0-rc.1"
   }
 }
