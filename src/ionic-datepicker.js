@@ -88,7 +88,7 @@ angular.module('ionic-datepicker', ['ionic', 'ionic-datepicker.templates'])
           refreshDateList(currentDate)
         };
 
-        scope.date_selection = {selected: false, selectedDate: '', submitted: false};
+        scope.date_selection = {selected: true, selectedDate: scope.ipDate, submitted: false};
 
         scope.dateSelected = function (date) {
           scope.selctedDateString = date.dateString;
